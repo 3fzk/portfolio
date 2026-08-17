@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Almas — Luyn Network." />
+    <title>Almas — Luyn Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .link-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7}.link-icon.github svg,.link-icon.discord svg{fill:currentColor;stroke:none}.avatar{cursor:pointer;position:relative;overflow:hidden}.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}.avatar small{position:absolute;inset:0;display:grid;place-items:center;border-radius:50%;background:rgba(8,8,14,.62);color:#fff;font:7px "DM Mono",monospace;letter-spacing:.3px;opacity:0;transition:.2s}.avatar:hover small{opacity:1}.theme-switcher{display:flex;justify-content:center;gap:8px;margin-top:17px}.theme-switcher button{width:12px;height:12px;padding:0;border:1px solid rgba(255,255,255,.65);border-radius:50%;cursor:pointer;background:#75718b;box-shadow:0 0 0 2px transparent;transition:.2s}.theme-switcher button:nth-child(2){background:#59b9d8}.theme-switcher button:nth-child(3){background:#d26275}.theme-switcher button.active{box-shadow:0 0 0 3px rgba(255,255,255,.22);transform:scale(1.12)}body[data-theme="ocean"] .backdrop{background:radial-gradient(ellipse at 55% 42%,#195d7a 0%,#123349 38%,#10172a 70%,#05070d 100%)}body[data-theme="crimson"] .backdrop{background:radial-gradient(ellipse at 55% 42%,#82475a 0%,#432131 38%,#211320 70%,#0d070b 100%)}body[data-theme="ocean"] .profile-card{background:linear-gradient(120deg,rgba(121,230,255,.16),rgba(10,31,46,.76) 38%,rgba(86,153,255,.12))}body[data-theme="crimson"] .profile-card{background:linear-gradient(120deg,rgba(255,163,184,.16),rgba(43,15,25,.76) 38%,rgba(255,104,135,.1))}@media(max-height:760px){body{overflow:auto}.page-shell{padding-block:26px}}
+    </style>
+    <style>
+      .avatar{display:block;position:relative;overflow:hidden;cursor:default}.avatar img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:center 38%}.cosmos-planet{position:absolute;border-radius:50%;z-index:1;opacity:.92}.cosmos-planet.saturn{width:270px;height:270px;right:-88px;top:7%;background:radial-gradient(circle at 32% 25%,#fff4c8,#d8bd90 32%,#736288 61%,#2b2642 100%);box-shadow:0 0 70px #96a3ff}.saturn:after{content:"";position:absolute;width:405px;height:82px;left:-68px;top:89px;border:18px solid rgba(206,190,216,.6);border-left-color:rgba(151,142,175,.32);border-right-color:rgba(151,142,175,.32);border-radius:50%;transform:rotate(-18deg)}.cosmos-planet.moon{width:75px;height:75px;left:8%;bottom:13%;background:radial-gradient(circle at 32% 29%,#f7f0e2,#8d93b0 57%,#373a62);box-shadow:0 0 35px #90a8e7}.astronaut{position:absolute;z-index:2;width:150px;bottom:4%;right:10%;filter:drop-shadow(0 10px 18px rgba(0,0,0,.65));transform:rotate(12deg);opacity:.8}.astronaut .suit{fill:#d5e0f5;stroke:#535b8e;stroke-width:3}.astronaut .visor{fill:#22284e;stroke:#9bbcf4;stroke-width:3}.astronaut .pack{fill:#858cad;stroke:#454d79;stroke-width:3}.astronaut .line{stroke:#5c6491;stroke-width:3;stroke-linecap:round}@media(max-width:600px){.cosmos-planet.saturn{width:190px;height:190px;right:-82px;top:2%}.saturn:after{width:285px;height:58px;left:-48px;top:63px;border-width:13px}.cosmos-planet.moon{width:51px;height:51px}.astronaut{width:105px;right:2%;bottom:3%}}
+    </style>
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"><div class="aurora one"></div><div class="aurora two"></div><div class="aurora three"></div><div class="cosmos-planet saturn"></div><div class="cosmos-planet moon"></div><svg class="astronaut" viewBox="0 0 140 170"><rect class="pack" x="91" y="73" width="28" height="50" rx="7"/><circle class="suit" cx="70" cy="40" r="29"/><path class="visor" d="M49 40c0-15 9-25 21-25s21 10 21 25c-10 8-31 8-42 0Z"/><path class="suit" d="M42 67c8-8 49-8 57 0l11 55c-15 16-50 16-69 0Z"/><path class="suit" d="M44 76 18 103l10 12 27-20M97 76l25 20-6 15-28-15"/><path class="suit" d="m55 121-8 36h18l7-31m10-5 9 36h18l-12-39"/><path class="line" d="M62 83h17M70 67v52"/></svg></div>
+    <main class="page-shell">
+      <section class="profile-card" aria-labelledby="name">
+        <div class="topline"><span class="live-dot"></span><span>LUYN NETWORK</span><span class="topline-right">EST. 2024</span></div>
+        <div class="avatar">
+          <img id="avatar-preview" src="almas-profile.png" alt="Foto profil Almas" />
+        </div>
+        <h1 id="name">Almas</h1>
+        <p class="tagline">Dream big. Build beyond<br /><b>every limit.</b></p>
+        <div class="links" aria-label="Almas links">
+          <a href="https://luynnetwork.app" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.4 3.8 5.4 3.8 9S14.5 18.6 12 21c-2.5-2.4-3.8-5.4-3.8-9S9.5 5.4 12 3Z"></path></svg></span><span>luynnetwork.app</span><i>↗</i></a>
+          <a href="https://panel.luynnetwork.app" target="_blank" rel="noreferrer"><span class="link-icon panel" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18M7 6.5h.01M10 6.5h.01M7 13h4M7 16h7"></path></svg></span><span>Open Luyn Panel</span><i>↗</i></a>
+          <a href="https://instagram.com/alms.0x" target="_blank" rel="noreferrer"><span class="link-icon instagram" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.7" r="1"></circle></svg></span><span>@alms.0x</span><i>↗</i></a>
+          <a href="https://github.com/3fzk" target="_blank" rel="noreferrer"><span class="link-icon github" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8a9.2 9.2 0 0 0-2.9 17.9c.5.1.6-.2.6-.4v-1.8c-2.5.5-3-1.1-3-1.1-.4-1-.9-1.3-.9-1.3-.8-.5.1-.5.1-.5.9.1 1.4.9 1.4.9.8 1.4 2.2 1 2.7.7.1-.6.3-1 .5-1.3-2-.2-4.1-1-4.1-4.4 0-1 .3-1.7.9-2.4-.1-.2-.4-1.1.1-2.3 0 0 .8-.3 2.5.9a8.6 8.6 0 0 1 4.5 0c1.7-1.2 2.5-.9 2.5-.9.5 1.2.2 2.1.1 2.3.6.7.9 1.5.9 2.4 0 3.4-2.1 4.2-4.1 4.4.3.3.6.9.6 1.7v2.5c0 .2.2.5.6.4A9.2 9.2 0 0 0 12 2.8Z"></path></svg></span><span>github.com/3fzk</span><i>↗</i></a>
+          <a href="https://discord.com/" target="_blank" rel="noreferrer"><span class="link-icon discord" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19.5 5.2A16.2 16.2 0 0 0 15.6 4l-.5 1a14.4 14.4 0 0 0-6.2 0l-.5-1a16.2 16.2 0 0 0-3.9 1.2C2.1 8.8 1.5 12.3 1.8 15.7A15.7 15.7 0 0 0 6.6 18l1.2-1.6a8.8 8.8 0 0 1-1.9-.9l.5-.4c3.7 1.7 7.7 1.7 11.4 0l.5.4c-.6.4-1.2.7-1.9.9l1.2 1.6a15.7 15.7 0 0 0 4.8-2.3c.4-4-.7-7.5-2.9-10.5ZM8.6 13.7c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6.8 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"></path></svg></span><span>discord / 3fzk</span><i>↗</i></a>
+        </div>
+        <div class="card-footer"><span><i></i> AVAILABLE FOR PROJECTS</span><span class="views"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12s3.4-6 9.5-6 9.5 6 9.5 6-3.4 6-9.5 6-9.5-6-9.5-6Z"></path><circle cx="12" cy="12" r="2.6"></circle></svg> 42K VIEWS</span><span>© <span id="year"></span></span></div>
+        <div class="theme-switcher" aria-label="Pilih tema"><button type="button" data-theme="void" class="active" aria-label="Tema Void"></button><button type="button" data-theme="ocean" aria-label="Tema Ocean"></button><button type="button" data-theme="crimson" aria-label="Tema Crimson"></button></div>
+      </section>
+      <p class="below-card">MADE WITH INTENT <span>✦</span> LUYN NETWORK</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
